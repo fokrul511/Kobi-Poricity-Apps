@@ -31,7 +31,7 @@ List poetsList = [
   },
   {
     "Name": "কবি জীবনানন্দ দাশ",
-    "Image": "assets//jibonanondo.jpg",
+    "Image": "assets/jibon.png",
     "Birth": "১৭ ফেব্রুয়ারী, ১৮৯৯, বরিশাল",
     "death": "২২ অক্টোবর, ১৯৫৪, কলকাতা, ভারত",
     "Ditails":

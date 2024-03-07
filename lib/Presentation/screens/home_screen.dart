@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blueGrey.shade50,
       appBar: AppBar(
-        title: Text("কবি পরিচিতি"),
+        title: const Text("কবি পরিচিতি"),
         actions: [
           PopupMenuButton(
             itemBuilder: (context) => [
@@ -29,7 +29,7 @@ class HomeScreen extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => TeamScreen(),
+                      builder: (context) => const TeamScreen(),
                     ),
                   );
                 },
@@ -42,7 +42,7 @@ class HomeScreen extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Image(
+          const Image(
             image: AssetImage("assets/bg.png"),
             fit: BoxFit.cover,
           ),
